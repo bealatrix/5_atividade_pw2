@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Atividade PW II</title>
+</head>
+
+<body>
+
+  <!-- Exercício 1 -->
+  <div id="exercicio1">
+    <h2>Exercício 1: Média de um Aluno</h2>
+    <label for="nota1">Nota 1:</label>
+    <input type="number" id="nota1">
+
+    <label for="nota2">Nota 2:</label>
+    <input type="number" id="nota2">
+
+    <label for="nota3">Nota 3:</label>
+    <input type="number" id="nota3">
+
+    <label for="nota3">Nota 4:</label>
+    <input type="number" id="nota3">
+    <button onclick="calcularMedia()" class="">Calcular Média</button>
+
+    <p id="resultadoMedia"></p>
+  </div>
+
+<!-- Exercício 2 -->
+  <div id="exercicio2">
+    <h2>Exercício 2: Calculo Salário</h2>
+    <label for="salario">Salário:</label>
+    <input type="number" id="salario">
+
+    <button onclick="calcularSalario()">Calcular Salário</button>
+
+    <p id="resultadoSalario"></p>
+  </div>
+
+<!-- Exercício 3 -->
+  <div id="exercicio3">
+    <h2>Exercício 3: Média Geral Aluno</h2>
+    <label for="matricula">Matrícula:</label>
+    <input type="text" id="matricula">
+
+    <label for="notaAluno1">Nota 1:</label>
+    <input type="number" id="notaAluno1">
+
+    <label for="notaAluno2">Nota 2:</label>
+    <input type="number" id="notaAluno2">
+
+    <button onclick="calcularMediaAluno()">Calcular Média do Aluno</button>
+
+    <p id="resultadoAluno"></p>
+  </div>
+
+<!-- Exercício 4 -->
+  <div class="exercicio4">
+    <h2>Exercício 4 - Valor das Camisetas</h2>
+    <label for="small">Quantidade de camisetas pequenas:</label>
+    <input type="number" id="small" min="0" value="0">
+
+    <label for="medium">Quantidade de camisetas médias:</label>
+    <input type="number" id="medium" min="0" value="0">
+
+    <label for="large">Quantidade de camisetas grandes:</label>
+    <input type="number" id="large" min="0" value="0">
+
+    <button onclick="calcularValor()">Calcular Valor</button>
+
+    <p id="resultado"></p>
+  </div>
+
+  <!-- Exercício 5 -->
+  <div class="exercicio5">
+    <h2>Exercício 5 - Divisão da Conta</h2>
+    <label for="totalConta">Valor total da conta:</label>
+    <input type="number" id="totalConta" min="0" step="0.01" placeholder="0.00">
+
+    <button onclick="dividirConta()">Dividir Conta</button>
+
+    <p id="resultadoConta"></p>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
